@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Bootstrap</title>
+    <style>
+      header{
+        height: 100px;
+        margin-top: 20px;
+      }
+      .second{
+        height: 1140px;
+        display: flex;
+      }
+      .third{
+        height: 550px;
+        width: 550px;
+        margin-left: 130px;
+        margin-top: 130px;
+      }
+      .design{
+        color: white;
+        background-color: #b90b91;
+        width: 300px;
+        border-radius: 15px;
+        text-align: center;
+        margin-top: 70px;
+      }
+      .get{
+        font-size: 80px;
+        font-weight: 600;
+        background: -webkit-linear-gradient( #192ea9,#b90b91);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      .rasm{
+        margin-left: 550px;
+        margin-top: -550px;
+      }
+      .fifth{
+        width: 700x;
+        height: 380px;
+      }
+      .about{
+        text-align: center;
+        background: -webkit-linear-gradient( #192ea9,#b90b91);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        padding-top: 50px;
+      }
+      .name{
+        text-align: center;
+      }
+      .nimadir{
+        margin-left: 1300px;
+        margin-top: -30px;
+      }
+    </style>
+    </head>
+    <body>
+        <header class="py-4">
+            <div class="container d-flex justify-content-between">
+                <h3 class="fw-bold text-primary">Start Bootstrap</h3>
+                <ul class="list-unstyled d-flex gap-3 d-none d-md-flex">
+                    <li><a href="#" class="text-decoration-none text-reset">Home</a></li>
+                    <li><a href="#" class="text-decoration-none text-reset">Resume</a></li>
+                    <li><a href="#" class="text-decoration-none text-reset">Projects</a></li>
+                    <li><a href="#" class="text-decoration-none text-reset">Contact</a></li>
+                </ul>
+
+                <div class="d-md-none">
+                    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                        <i class="fa-solid fa-bars"></i>
+                      </button>
+                      
+                      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                        <div class="offcanvas-header">
+                          <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                          <div>
+                            Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+                          </div>
+                          <div class="dropdown mt-3">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                              Dropdown button
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="second">
+            <div class="third">
+                <div class="design">
+                <h5>Design.Development.Marketing</h5>
+                </div>
+                <br>
+                <h1 class="text-reset">I can help your business to</h1>
+                <br>
+                <h1 class="get">Get online and <br>
+                grow fast
+                </h1>
+                <br>
+                <div>
+                    <button type="button" class="btn btn-primary btn-lg">RESUME</button>
+                    <button type="button" class="btn border-dark btn-lg">PROJECTS</button>
+                </div>
+                <div class="rasm">
+                <img src="./images/profile.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="fifth">
+            <h1 class="about">About Me</h1>
+            <br>
+            <div class="name">
+            <h4 class="text-reset">My name is Start Bootstrap and I help brands grow.</h4>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat corrupti nisi magni! Ab quam eaque <br> aliquam, tempora soluta quasi nam iusto beatae nihil molestias fugiat porro, sapiente, consequuntur <br> quia sequi.</p>
+            </div>
+            <div class="text-center">
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-github"></i>
+            </div>
+            <p>Copyright &copy; your Website 2023</p>
+            <div class="nimadir">
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+    </body>
+</html>
